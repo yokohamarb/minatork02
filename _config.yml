@@ -1,0 +1,13 @@
+# Site settings
+title: みなとRuby会議02 - Regional RubyKaigi
+#email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  みなとRuby会議02 is one of regional ruby kaigi which is based on Yokohama.rb
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://minatork02.github.io/" # the base hostname & protocol for your site
+twitter_username: yokohamarb
+github_username:  yokohamarb
+
+# Build settings
+markdown: kramdown
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "vendor"]
