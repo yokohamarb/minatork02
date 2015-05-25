@@ -42,9 +42,9 @@ Yokohama.rbのRubyistが語る、Rubyがある生活をぜひお聞きくださ�
 ## スタッフ
 
 - 実行委員
-- 高橋一生（@1syo）
-- 有賀康顕（@chezou）
-- 三好秀徳（@miyohide）
+  - 高橋一生（@1syo）
+  - 有賀康顕（@chezou）
+  - 三好秀徳（@miyohide）
 
 ## 参加登録
 
