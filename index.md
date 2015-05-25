@@ -3,8 +3,6 @@ title: みなとRuby会議02
 layout: post
 ---
 
-(minatorubykaigi02 [#minatork02](http://twitter.com/search?q=%23minatork02))
-
 ## 参加登録
 現在、作成中です。今しばらくお待ちください（9月頃公開予定）。
 
