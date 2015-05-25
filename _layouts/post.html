@@ -1,15 +1,50 @@
 ---
 layout: default
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+<!-- Post Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>{{ page.title }}</h1>
+                    {% if page.subtitle %}
+                    <h2 class="subheading">{{ page.subtitle }}</h2>
+                    {% endif %}
+                    <span class="meta">Cover photo taken by <a href="https://www.flickr.com/photos/chaojikazu/239259029/in/photolist-n9gnF-4NWc2a-wgZwq-wgWDA-4Nt1sb-4Nt1MS-4Nt1Pf-27GN9-4NoNTn-wh2sm-wgX2f-wh1U7-aqaJZd-wgYmm-gDHme-gDHgE-gDHpk-k29yDD-wgYQe-wgZgx-5E4Kdq-6z8wnr-5RjEsM-5DZt5D-5RoXKC-6z8vPt-5DZtup-5RjErR-5RjEy6-5RjnZH-6z8w1K-5DZteM-5RoFrs-6z8vx2-6zcAdh-5RoFuY-6zczJj-5RoXT5-5RjEtM-5E4K39-6z8vXp-wh3zd-wgWi4-wgZVL-wh1jM-wh1HY-wh2YS-gDHj7-gDH6F-gDH47">kazuletokyoite</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-</div>
+				{{ content }}
+
+                <hr>
+
+                <ul class="pager">
+                    {% if page.previous.url %}
+                    <li class="previous">
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                    </li>
+                    {% endif %}
+                    {% if page.next.url %}
+                    <li class="next">
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                    </li>
+                    {% endif %}
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
