@@ -49,7 +49,7 @@ Yokohama.rbのRubyistが語る、Rubyがある生活をぜひお聞きくださ�
 ## 参加登録
 
 ## お問い合わせ
-みなとRuby会議02に関するお問い合わせは、[こちらのフォーム](http://goo.gl/forms/j7LECMYQS1)よりご連絡ください。
+みなとRuby会議02に関するお問い合わせは、takahashi \_\_at\_\_ 1syo.netまでメールにてご連絡ください。
 
 
 <script type='text/javascript'>
