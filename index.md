@@ -11,7 +11,7 @@ layout: post
 [Yokohama.rb](https://yokohamarb.doorkeeper.jp/)という横浜の地域Rubyコミュニティが運営しています。
 Rubyを使っている方も、これからRubyを使ってみたいという方もお気軽にご参加ください。
 
-- 名称: みなとRuby会議01
+- 名称: みなとRuby会議02
 - 主催: [Yokohama.rb](https://yokohamarb.doorkeeper.jp/)
 - 開催日時: 10/11(日) 時間は調整中です
 - 会場: 西区公会堂（神奈川県横浜市西区岡野1-6-41）
