@@ -46,8 +46,6 @@ Yokohama.rbのRubyistが語る、Rubyがある生活をぜひお聞きくださ�
   - 有賀康顕（@chezou）
   - 三好秀徳（@miyohide）
 
-## 参加登録
-
 ## お問い合わせ
 みなとRuby会議02に関するお問い合わせは、[こちらのフォーム](http://goo.gl/forms/j7LECMYQS1)よりご連絡ください。
 
